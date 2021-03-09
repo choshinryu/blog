@@ -29,24 +29,22 @@ $$
 $$
 
 
-$$
-D=
-\left(
-\hspace{3pt}
-\begin{matrix}
-\dfrac{\partial x}{ \partial \lambda}
-& \dfrac{\partial x}{ \partial \psi } 
-& \dfrac{\partial x}{ \partial \mu} \\\\   
-\dfrac{\partial y}{ \partial \lambda} 
-& \dfrac{\partial y}{ \partial \psi } 
-& \dfrac{\partial y}{ \partial \mu} \\\\   
-\dfrac{\partial z}{ \partial \lambda} 
-& \dfrac{\partial z}{ \partial \psi} 
-& \dfrac{\partial z}{ \partial \mu} \\\\   
-\end{matrix}
-\hspace{3pt}
-\right)
-$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $$
 \left \\{
