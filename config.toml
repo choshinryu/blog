@@ -2,4 +2,4 @@ baseURL = "https://brave-hermann-cae0ff.netlify.app/"
 languageCode = "en-us"
 title = "My New Hugo Site" 
 
-theme="ananke"
+theme="coder"
