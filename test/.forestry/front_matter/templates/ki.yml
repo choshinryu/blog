@@ -1,0 +1,11 @@
+---
+label: KI
+hide_body: true
+fields:
+- name: d
+  type: blocks
+  label: d
+  template_types: []
+  config:
+    min: 
+    max: 
