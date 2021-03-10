@@ -1,4 +1,5 @@
 baseURL = "https://zealous-swanson-8c4434.netlify.app"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "A test web side for blog"
 theme = "ananke"
+
