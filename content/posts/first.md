@@ -9,6 +9,10 @@ yang yang yang this is a test
 
 MathJax测试
 
+单边大括号
+
+矩阵
+
 $$
 \\vec{a}=\\sum_{i=1,2,3} a_i e_i=a_1e_1+a_2e_2+a_3e_3
 $$
