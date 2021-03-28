@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>
+            This is the message from the index.html template file
+            index.md use this template file.
+            Now we use varibale to display the message in the index.md file
+        </div>   
+        <div>
+            {{.Content}}  
+            {{ range .Pages}}
+            <ul>
+                <li>
+                    <a href="{{.URL}}">{{.Title}} </a>
+                </li>
+            </ul>
+            {{end}}
+        </div>
+    </body>
+</html>
