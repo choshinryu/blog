@@ -1,4 +1,30 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+#baseURL = "http://example.org/"
+#languageCode = "en-us"
+#title = "My New Hugo Site"
+#theme = "cho"
+
+
+#[menu]
+#  [[menu.main]]
+#    identifier = "posts"
+#    name = "Posts"
+#    url = "/posts"
+#    weight = 10
+
+
+baseURL = "https://example.com"
+title = "Hugo template"
 theme = "starter"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 20
