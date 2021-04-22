@@ -1,30 +1,5 @@
-#baseURL = "http://example.org/"
-#languageCode = "en-us"
-#title = "My New Hugo Site"
-#theme = "cho"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "CHO's New Hugo Site"
+theme = "vienna"
 
-
-#[menu]
-#  [[menu.main]]
-#    identifier = "posts"
-#    name = "Posts"
-#    url = "/posts"
-#    weight = 10
-
-
-baseURL = "https://example.com"
-title = "Hugo template"
-theme = "starter"
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 20

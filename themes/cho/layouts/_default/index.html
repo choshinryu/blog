@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body>
+
+{{ partial "header.html" . }}
+
+
+{{ range $index, $element := $.Paginator.Pages }}
+<div>
+    <a href="{{ .Permalink }}">
+        <h2>{{ .Title }}</h2>
+        <div class="post-content-preview">
+	    {{ with .Description }}
+            {{ . }}
+        {{ else }}
+            {{ .Summary}}
+        {{ end }}
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} 
+    {{ .Date.Format "Monday, January 2, 2006" }}
+    </p>
+
+</div>
+<hr>
+{{ end }}
+
+
+
+
+
+{{ partial "footer.html" . }}
+
+</body>
+
+</html>
